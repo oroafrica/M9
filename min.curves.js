@@ -418,7 +418,7 @@ class Item
 		.concat("<use xlink:href='#' />")
 		
 		.concat("<text dy='0' style='stroke:none;font-family:wz_swan;font-size:20px;' fill='#A9A9A9'  >")
-		.concat("<textPath id='txt' text-anchor='middle' startOffset='50%' xlink:href='#txtpath'>sameenah</textPath>")
+		.concat("<textPath id='txt' text-anchor='middle' startOffset='50%' xlink:href='#txtpath'>Angelina</textPath>")
 		.concat(" </text>")
 
 		.concat("</svg>");
