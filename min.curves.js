@@ -73,7 +73,7 @@ class Curves
 		{
 			var accent = {0:"#",1:"#dia",2:"#ajan",3:"#afeb",4:"#amar",5:"#aapr",6:"#amay",7:"#ajun",8:"#ajul",9:"#aaug",10:"#asep",11:"#aoct",12:"#anov",13:"#adec"};
 			
-			let _target = this.svg.getElementsByTagName("use")[1];
+			let _target = this.svg.getElementsByTagName("use")[2];
 			$(_target).attr("xlink:href",accent[selAccent]);
 			
 		}
@@ -149,7 +149,7 @@ class Curves
 			let _a, _b;
 
 
-			if(inputName === 'Enteryournamehere')
+			if(inputName === 'Enter your name here')
 			{
 				return;
 			}    
