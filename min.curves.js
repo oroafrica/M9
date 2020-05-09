@@ -242,7 +242,8 @@ class Curves
 			{
 				console.log("scaleCanvas: " + e);
 			}
-		})
+		});
+		/*
 		.click(()=>
 		{
 			this.justifyText();
@@ -257,8 +258,8 @@ class Curves
 					this.clsCanvas();
 					this.ctx.drawImage(img, -30, -30, this.w*1.2, this.h*1.2);
 				};
-		})
-		;
+		});
+		*/
 	}
 	
 	justifyText()
